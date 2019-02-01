@@ -42,12 +42,8 @@ public class ApplicantActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        String BE_APP_ID = "2BA4C084-CAED-3492-FFEF-3E7E2FCD3600";
-        String BE_ANDROID_API_KEY = "46D12C25-EEFA-BAA7-FF35-01C45BEBD000";
 
-        class initApp {
-            public static void main(this, BE_APP_ID, BE_ANDROID_API_KEY);
-        }
+
 
     }
 
@@ -90,9 +86,10 @@ public class ApplicantActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.family_member) {
-            // Handle the camera action
+
         }
         else if (id == R.id.profile) {
+            setContentvView(R.layout.profile);
         }
         // else if (id == R.id.nav_slideshow) {
 //
@@ -100,10 +97,11 @@ public class ApplicantActivity extends AppCompatActivity
 //
 //        }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        drawer.closeDrawer(GravityCompat.START);
+            return true;
     }
 
 
 }
+

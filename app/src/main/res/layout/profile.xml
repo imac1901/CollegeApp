@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="351dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textNoSuggestions|textPersonName"
+        android:text="@string/firstName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lastName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="110dp" />
+</android.support.constraint.ConstraintLayout>
